@@ -1,0 +1,1122 @@
+[
+ {
+   "Question": "How can I reset my password? I can’t remember my password. ",
+   "Response": " Currently we do not have this facility. Users will need to contact the admin"
+ },
+ {
+   "Question": " How can I contact the admin? Can you give me the contact information?",
+   "Response": "You can find the contact information in the webpage\n"
+ },
+ {
+   "Question": "How can I reset my password? I can’t remember my password. ",
+   "Response": " Currently we do not have this facility. Users will need to contact the admin"
+ },
+ {
+   "Question": " How can I contact the admin?",
+   "Response": "Please  click the ‘CONTACT’ button in the left panel\n"
+ },
+ {
+   "Question": "I can’t login with my account and password. ",
+   "Response": " Do you want to find your password? "
+ },
+ {
+   "Question": " Yes. Please reset my password.",
+   "Response": "Please contact the administrator for that\n"
+ },
+ {
+   "Question": "I can’t login with my account and password. ",
+   "Response": " Have you check your account and password?"
+ },
+ {
+   "Question": " Yes. I should have something wrong with my password.",
+   "Response": "Yes. Please click the ‘CONTACT’ button in the left panel to contact the administrator\n"
+ },
+ {
+   "Question": "What kinds of AI applications can be tested by this tool? Can I test NLP applications? ",
+   "Response": "Test cases can be generated for any type of application, but currently the application can have input type image only"
+ },
+ {
+   "Question": "So I can’t test NLP applications. Is it right?",
+   "Response": "We will add the feature in future\n"
+ },
+ {
+   "Question": "What kinds of AI applications can be tested by this tool? Can I test OCR applications? ",
+   "Response": "Test cases can be generated for any type of application, but currently the application can have input type image only"
+ },
+ {
+   "Question": "So I can’t test NLP applications. Is it right?",
+   "Response": "We will add the feature in future\n"
+ },
+ {
+   "Question": "What functions are supported by the tool?",
+   "Response": " Input and context tree modeling,Test case modeling and Test case input modeling."
+ },
+ {
+   "Question": "What is test case modeling?",
+   "Response": "Generating Test Cases based on provided input and the context trees. With this feature, users can generate test cases for all the combination for the respective input and context trees\n"
+ },
+ {
+   "Question": "What functions are supported by the tool?",
+   "Response": " Input and context tree modeling,Test case modeling and Test case input modeling."
+ },
+ {
+   "Question": "What is the difference between test case input modeling and input tree modeling?",
+   "Response": "In Input tree modeling we are defining the factors which need to be considered while testing a certain product.  We use this tree while defining the test case group and to generate the test cases Test Case Input modeling refers to Data/Input Data required for the test case. In this module, we are providing the user ability to add input data to the test case either manually or with the help of a web search engine\n"
+ },
+ {
+   "Question": "What kinds of tests can be done with this tool?",
+   "Response": " All kinds of AI application."
+ },
+ {
+   "Question": " Can functional and performance tests both be done?",
+   "Response": "No. Only functional tests can be done\n"
+ },
+ {
+   "Question": "What kinds of tests can be done with this tool?",
+   "Response": " All kinds of AI application."
+ },
+ {
+   "Question": " Can functional and performance tests both be done?",
+   "Response": "Not really\n"
+ },
+ {
+   "Question": "What is the impact if the test tools are used by multiple users for different apps at the same time?",
+   "Response": " Currently the app is in the development stage. So the performance capabilities are limited and not supported."
+ },
+ {
+   "Question": "Do you mean only one user one application can be supported at one time?",
+   "Response": "Yes. We plan to support it in later version\n"
+ },
+ {
+   "Question": "What are the maximal test cases can be executed when the app performance is tested?",
+   "Response": "Current the performance testing feature is not available."
+ },
+ {
+   "Question": "Can multiple test cases be executed then?",
+   "Response": "No\n"
+ },
+ {
+   "Question": "How can I use spanning trees in the dashboard?",
+   "Response": " We are in the process of reconfiguring the UI this feature will be removed"
+ },
+ {
+   "Question": " Do you suggest not to use this?",
+   "Response": "Yes\n"
+ },
+ {
+   "Question": "How can I use spanning trees in the dashboard?",
+   "Response": " We are in the process of reconfiguring the UI this feature will be removed"
+ },
+ {
+   "Question": " Do you suggest not to use this?",
+   "Response": "You can try it, but your usage may be interrupted during the usage\n"
+ },
+ {
+   "Question": "How can I use the test case group function best? ",
+   "Response": "Use  Group Name , Version, Sub-version fields to create different groups for the same application"
+ },
+ {
+   "Question": "Understand, thanks",
+   "Response": "You are welcome\n"
+ },
+ {
+   "Question": "How can I use the test case group function best? ",
+   "Response": "Use  Group Name , Version, Sub-version fields to create different groups for the same application"
+ },
+ {
+   "Question": "Got it. It’s the test cases organization method",
+   "Response": "Yes\n"
+ },
+ {
+   "Question": "How can I do the version control of the input and context classification input?",
+   "Response": "Name the files accordingly and store multiple versions of the file. Also copy tree function is available"
+ },
+ {
+   "Question": "What does copying tree for?",
+   "Response": "It’s used to copy the whole content of current version for producing a new version by modification\n"
+ },
+ {
+   "Question": "How can I do the version control of the input and context classification input?",
+   "Response": "Name the files accordingly and store multiple versions of the file. Also copy tree function is available"
+ },
+ {
+   "Question": "What does copying tree for?",
+   "Response": "Copy tree is to copy the version\n"
+ },
+ {
+   "Question": "How can I do the version control of the input and context classification input?",
+   "Response": "Name the files accordingly and store multiple versions of the file. Also copy tree function is available"
+ },
+ {
+   "Question": "Is there any naming convention?",
+   "Response": "Currently no\n"
+ },
+ {
+   "Question": "How can I do the version control of the input and context classification input?",
+   "Response": "Name the files accordingly and store multiple versions of the file. Also copy tree function is available"
+ },
+ {
+   "Question": "Is there any naming convention for the file?",
+   "Response": "No\n"
+ },
+ {
+   "Question": "How can I control the test cases number of each test case branch?",
+   "Response": " You can limit the number of test cases by limiting the number of nodes in input and context tree."
+ },
+ {
+   "Question": "Can I input the limitation number?",
+   "Response": "Let me check\n"
+ },
+ {
+   "Question": "How can I control the test cases number of each test case branch?",
+   "Response": " You can limit the number of test cases by limiting the number of nodes in input and context tree."
+ },
+ {
+   "Question": "Can I input the limitation number?",
+   "Response": "No\n"
+ },
+ {
+   "Question": "Where to check the test case execution status?",
+   "Response": "currently this module is under development"
+ },
+ {
+   "Question": " Is there any plan?",
+   "Response": "The release date is not determined yet\n"
+ },
+ {
+   "Question": "Where to check the test case execution status?",
+   "Response": "currently this module is under development"
+ },
+ {
+   "Question": " Is there any plan?",
+   "Response": "Yes, it will be delivered soon\n"
+ },
+ {
+   "Question": "Can multiple users modify the same application input and context classification input?",
+   "Response": "No."
+ },
+ {
+   "Question": " Can user use same login with currently with multiple browser?",
+   "Response": "No, one user can’t login with multiple browser.\n"
+ },
+ {
+   "Question": "Can multiple users modify the same application input and context classification input?",
+   "Response": "No.Also User should not use same login with currently with multiple browser."
+ },
+ {
+   "Question": "Will you support multi-user access later?",
+   "Response": "There is no plan yet\n"
+ },
+ {
+   "Question": "Can multiple users modify the same application input and context classification input?",
+   "Response": "No.Also User should not use same login with currently with multiple browser."
+ },
+ {
+   "Question": "Will you support multi-user access later?",
+   "Response": "Let me check\n"
+ },
+ {
+   "Question": "Can the tool generate test cases for one app without input and context definition by users?",
+   "Response": "No."
+ },
+ {
+   "Question": " Is there template available for reference?",
+   "Response": "No\n"
+ },
+ {
+   "Question": "Can the tool generate test cases for one app without input and context definition by users?",
+   "Response": "No."
+ },
+ {
+   "Question": " Is there some templates available for reference?",
+   "Response": "We plan to do that later\n"
+ },
+ {
+   "Question": "Can multiple users share a project and work together?",
+   "Response": "No. This feature will need to be developed."
+ },
+ {
+   "Question": "What’s the plan for it?",
+   "Response": "It is not decided yet\n"
+ },
+ {
+   "Question": "Can multiple users share a project and work together?",
+   "Response": "No. This feature will need to be developed."
+ },
+ {
+   "Question": "It’s necessary for team cooperation.",
+   "Response": "Yes, I agree\n"
+ },
+ {
+   "Question": "Can multiple users share a project and work together?",
+   "Response": "No. This feature will need to be developed."
+ },
+ {
+   "Question": "It’s necessary for team cooperation.",
+   "Response": "I understand\n"
+ },
+ {
+   "Question": "Can I set the test cases number for each test case branch? ",
+   "Response": "No."
+ },
+ {
+   "Question": "It’s needed to simplify the work",
+   "Response": "We have no plan for it yet\n"
+ },
+ {
+   "Question": "Can I set the test cases number for each test case branch? ",
+   "Response": "No."
+ },
+ {
+   "Question": "It’s needed to simplify the work",
+   "Response": "We will check it.\n"
+ },
+ {
+   "Question": "Can I set specific  execution time for the test cases?",
+   "Response": "No"
+ },
+ {
+   "Question": "Do you have a plan for this function?",
+   "Response": "We have no plan for it yet\n"
+ },
+ {
+   "Question": "Can I set specific  execution time for the test cases?",
+   "Response": "No"
+ },
+ {
+   "Question": "I think it is very useful function if the test cases are huge and avoid workload traffic",
+   "Response": "Understand\n"
+ },
+ {
+   "Question": "Can I set specific  execution time for the test cases?",
+   "Response": "No"
+ },
+ {
+   "Question": "I think it is very useful function if the test cases are huge and avoid workload traffic",
+   "Response": "We will consider the schedule function\n"
+ },
+ {
+   "Question": "Hello, how can I edit my nodes for input classification? Sure, you can edit or delete nodes. How many nodes can I add at most in one time?",
+   "Response": "There is a ‘create 5 Nodes’ option to add five child nodes with default names. Then you can select the node to rename with appropriate values."
+ },
+ {
+   "Question": "Sounds great. How can I delete nodes from input classification?",
+   "Response": "Move mouse over the node. Right click on it and option to delete the node will be displayed.\n"
+ },
+ {
+   "Question": "Hello, I can’t find the delete button for input classification nodes. Can you help me?Sure. Move mouse over the node. Right click on it and option to delete the node will be displayed.",
+   "Response": "Can I add more nodes?"
+ },
+ {
+   "Question": "Absolutely! There are two ways: First move your mouse over the node, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values. Thank you! Can I upload my input classification?",
+   "Response": "Yes. You can upload a JSON file.\n"
+ },
+ {
+   "Question": "Hello, I can’t find my testing cases? Can you help me?",
+   "Response": "Yes, you can go to Login-> Get Started -> TEST CASE GROUP, then select appropriate test case group, scroll to right till you see the action column. Hover over each action button to see the description, click ‘View Test Cases’. Then you will be redirected to input test cases. Did I solve your problem?"
+ },
+ {
+   "Question": "Yes, Thanks. Can I change the color of node?",
+   "Response": "Sorry, we don’t have this option.\n"
+ },
+ {
+   "Question": "How many nodes can I enter for my input classification?",
+   "Response": "Are you asking about the tree?"
+ },
+ {
+   "Question": "Yes.",
+   "Response": "The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more number of test cases will be generated.\n"
+ },
+ {
+   "Question": "How to delete nodes from input classification?",
+   "Response": "You can mode mouse over the node. Right click on it and option to delete the node will be displayed."
+ },
+ {
+   "Question": "If I accidently delete the node, can I recover it?",
+   "Response": "Sorry, we don’t have that option. But you can create a new node.\n"
+ },
+ {
+   "Question": "How can I upload my input classification?",
+   "Response": "Go to Login -> Get Started -> DATA ADMINISTRATION. Then select JSON file,  select file type ( Input, Context or Output), click submit."
+ },
+ {
+   "Question": "Thanks for you help. Can I upload an excel file?",
+   "Response": "Sorry, we use JSON file to generate testing cases.\n"
+ },
+ {
+   "Question": "Can I use input classification files as my content classification?",
+   "Response": "Sure."
+ },
+ {
+   "Question": "Can I use my previous trees?",
+   "Response": "Yes, no problem.\n"
+ },
+ {
+   "Question": "I can find the way to delete nodes from classification?",
+   "Response": "Are you asking about input classification?"
+ },
+ {
+   "Question": "Yes",
+   "Response": "You need to go navigation: Login -> Get Started-> Data Administration with graph. Move mouse over the node.Right click on it and option to delete the node will be displayed.\n"
+ },
+ {
+   "Question": "I don't know how to create a child node from input classification, Could you help me?",
+   "Response": "Absolutely. Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Create Child Node” option.A popup window will open. Add name for the node and click create."
+ },
+ {
+   "Question": "Do you have any more question?",
+   "Response": "No, Thanks for your help.\n"
+ },
+ {
+   "Question": "Can I add three nodes at once?",
+   "Response": "Yes, you can right click, select 'create child node' option.A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required,then click create to add nodes to the tree."
+ },
+ {
+   "Question": "Can I change the node color?",
+   "Response": "Sorry, we don't have this option right now. If you have more question, please contact admin.\n"
+ },
+ {
+   "Question": "I wasn't able to find my input classification file.",
+   "Response": "Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed."
+ },
+ {
+   "Question": "May I use input classification file as content classification?",
+   "Response": "Yes, no problem.\n"
+ },
+ {
+   "Question": "What type of input classification file can I upload?",
+   "Response": "JSON file"
+ },
+ {
+   "Question": "Where can I check my testing tree?",
+   "Response": "Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed.\n"
+ },
+ {
+   "Question": "Is there any limitation for creating nodes for input classification?",
+   "Response": "The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values."
+ },
+ {
+   "Question": "Thanks. Can I use scratching input classification file.",
+   "Response": "Sorry, we don't support this option. But you can upload your own JSON input classficiaction file.\n"
+ },
+ {
+   "Question": "How can I delete nodes from input classification?",
+   "Response": "Move mouse over the node. Right click on it and option to delete the node will be displayed."
+ },
+ {
+   "Question": "Is there any limitation for creating nodes for input classification?",
+   "Response": "The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values.\n"
+ },
+ {
+   "Question": "Hello, how can I edit my nodes for input classification? Sure, you can edit or delete nodes. How many nodes can I add at most in one time?",
+   "Response": "There is a ‘create 5 Nodes’ option to add five child nodes with default names. Then you can select the node to rename with appropriate values."
+ },
+ {
+   "Question": "Sounds great. How can I delete nodes from input classification?",
+   "Response": "Move mouse over the node. Right click on it and option to delete the node will be displayed.\n"
+ },
+ {
+   "Question": "Can I add more nodes?",
+   "Response": "Absolutely! There are two ways: First move your mouse over the node, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values."
+ },
+ {
+   "Question": "I can’t find the delete button for input classification nodes?",
+   "Response": "Move mouse over the node. Right click on it and option to delete the node will be displayed.\n"
+ },
+ {
+   "Question": "Hi, I have a question: Can I change the color of nodes?",
+   "Response": "Sorry, we don’t have this option."
+ },
+ {
+   "Question": "Do you know where I can find my input testing cases?",
+   "Response": "Yes, you can go to Login-> Get Started -> TEST CASE GROUP, then select appropriate test case group, scroll to right till you see the action column. Hover over each action button to see the description, click ‘View Test Cases’. Then you will be redirected to input test cases. Did I solve your problem?\n"
+ },
+ {
+   "Question": "What type of input classification file can I upload?",
+   "Response": "We accept JSON file."
+ },
+ {
+   "Question": "Can I use my previous tree.",
+   "Response": "Sure. You can upload your own tree by using JSON file.\n"
+ },
+ {
+   "Question": "Can I recover deleted nodes?",
+   "Response": "Sorry, we don’t have that option. But you can create a new node."
+ },
+ {
+   "Question": "How many nodes can I enter for my input classification?",
+   "Response": "The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more number of test cases will be generated.\n"
+ },
+ {
+   "Question": "I tried to upload a Jason file, where can I see my testing tree?",
+   "Response": "Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed."
+ },
+ {
+   "Question": "Can I delete nodes from input classification?",
+   "Response": "Sure. Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed\n"
+ },
+ {
+   "Question": "How to add or delete node from input classification?",
+   "Response": "For adding nodes, you can go Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Create Child Node” option.A popup window will open. Add name for the node and click create."
+ },
+ {
+   "Question": "For deleting nodes, you can go Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed. Sounds great. Can I change the color of nodes?",
+   "Response": "Sorry, we don't have that option.\n"
+ },
+ {
+   "Question": "I can't rename my node?",
+   "Response": "You can Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Rename Node” option.A popup window will open.Change name and Click rename. Do I answer you question?"
+ },
+ {
+   "Question": "Yes, thank you. How can I delete my saved trees?",
+   "Response": "Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Click Delete.\n"
+ },
+ {
+   "Question": "Can I upload an image file for my input classification tree?",
+   "Response": "Sorry, we don't accept image file right now, but you can upload JSON file."
+ },
+ {
+   "Question": "Alright. Do you know how many nodes can I enter for my input classificaiton? Is there any limitation?",
+   "Response": "The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values.\n"
+ },
+ {
+   "Question": "Can I upload my own JSON file as input classification and content classification?",
+   "Response": "Yes. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+ },
+ {
+   "Question": "Can I use scratch input classification files?",
+   "Response": "No.\n"
+ },
+ {
+   "Question": "How can I find the input classification file?",
+   "Response": "Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed. Dropdown list will have “File Name” and “File Type”"
+ },
+ {
+   "Question": "Ok, thanks. I was able to delete the nodes from input classfication.",
+   "Response": "You can try Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed.\n"
+ },
+ {
+   "Question": "I have a problem of uploading my input classification, how can I fix it?",
+   "Response": "Well, you can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+ },
+ {
+   "Question": "Do I solve your problem?",
+   "Response": "Yes, Thank you very much.\n"
+ },
+ {
+   "Question": "I can't upload my previous input classification tree.",
+   "Response": "Ok, you can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+ },
+ {
+   "Question": "Thank you. What else file format can I upload except JSON.",
+   "Response": "Right now, we only accept JSON file.\n"
+ },
+ {
+   "Question": "Can I change the order of input classification?",
+   "Response": "Nodes and Child Nodes are arranged/sorted based on name(A-Z) after each action(add,delete and rename)"
+ },
+ {
+   "Question": "Can I delete nodes from input classification tree?",
+   "Response": "Sure, Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH  Move mouse over the node.Right click on it and option to delete the node will be displayed\n"
+ },
+ {
+   "Question": "I wasn't able to create and delete a node from input inclassification, can you help me?",
+   "Response": "Sure.\"For creating node:Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Create Child Node” option.A popup window will open. Add name for the node and click create.\""
+ },
+ {
+   "Question": "For deleteing node:Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH  Move mouse over the node.Right click on it and option to delete the node will be displayed",
+   "Response": "Thanks for your help.\n"
+ },
+ {
+   "Question": "What to do with deleting nodes from input calssficaition.",
+   "Response": "Please check right click options."
+ },
+ {
+   "Question": "Would you provide detail information about it?",
+   "Response": "Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed\n"
+ },
+ {
+   "Question": "I have difficulty to upload my own input classficiation file?",
+   "Response": "What's your issue"
+ },
+ {
+   "Question": "I tried to upload csv file, but it failed.",
+   "Response": "We only accept JSON file. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit.\n"
+ },
+ {
+   "Question": "Why things not working when I adding more level for my input classification tree?",
+   "Response": "What's the issue?"
+ },
+ {
+   "Question": "I tried to add forth level, but not working.",
+   "Response": "The tree should have only three levels.\n"
+ },
+ {
+   "Question": "What to do if I want to add more nodes at once?",
+   "Response": "Are you talking about adding nodes in input classification tree?"
+ },
+ {
+   "Question": "yes.",
+   "Response": "There are two methods: Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select   1. “Create Child Node” option.A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required,then click create to add nodes to the tree. OR’ 2. “Create 5 Nodes” option to add five child nodes with default names. Then select the node to rename with appropriate values\n"
+ },
+ {
+   "Question": "What can I do if I want to delete my saved tree?",
+   "Response": "Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH  Select tree/file from dropdown list. Click Delete."
+ },
+ {
+   "Question": "Can I use scratch input classification tree?",
+   "Response": "No.\n"
+ },
+ {
+   "Question": "How to fix submission button doesn't work?",
+   "Response": "Go to Login → CONTACT  Click to view Google Feedback Form Add bug report."
+ },
+ {
+   "Question": "Can I upload my own input classificatin tree?",
+   "Response": "Sure. You can uplaod your own JSON file.\n"
+ },
+ {
+   "Question": "What can I do if I want to rename my node?",
+   "Response": "Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Rename Node” option.A popup window will open.Change name and Click rename"
+ },
+ {
+   "Question": "How many child nodes can I enter for my input classification?",
+   "Response": "There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values.\n"
+ },
+ {
+   "Question": "Why things not working when I try to add more nodes at once?",
+   "Response": "Have you tried 'create child node' method?"
+ },
+ {
+   "Question": "Would you give me more specific information about it?",
+   "Response": "“Create Child Node” option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required,then click create to add nodes to the tree.\n"
+ },
+ {
+   "Question": "Why things not working when I try to add more nodes at once?",
+   "Response": "Have you tried 'create 5 Nodes' method?"
+ },
+ {
+   "Question": "Would you give me more specific information about it?",
+   "Response": "“Create 5 Nodes” option to add five child nodes with default names. Then select the node to rename with appropriate values\n"
+ },
+ {
+   "Question": "How can I upload my input classification?",
+   "Response": "Do you have a JSON file?"
+ },
+ {
+   "Question": "Yes.",
+   "Response": "You can go to Login → Get Started → DATA ADMINISTRATION, select file type (input, context or output) then click submit.\n"
+ },
+ {
+   "Question": "What can I do if I want to check my input classification cases?",
+   "Response": "Can You find \"TEST CASE GROUP\" on your left?"
+ },
+ {
+   "Question": "Yes.",
+   "Response": "Then you can 1.Select appropriate test case group 2.Scroll to right till you see the Action column 3.Hover over each action button to see the description 4.Click “View Test Cases” 5.User will be redirected to input test cases\n"
+ },
+ {
+   "Question": "How can I fix the previous information when I am at the output stage?",
+   "Response": "Yes for sure, could you please clarify 'previous information'?"
+ },
+ {
+   "Question": "Previous information are the previous stages, like input and contect stages.",
+   "Response": "Users can create an output tree or output tree can be generated automatically based on the input and context tree. Once the “test case group” is created, users can edit input,context and output trees.\n"
+ },
+ {
+   "Question": "Can I edit the input and context without generating the output tree when I reach the output stage? Like can I edit the information without saving it?",
+   "Response": "No, you cannot."
+ },
+ {
+   "Question": "Could you please provide clarification?",
+   "Response": "Once the “test case group” is created, users can edit input,context and output trees. Basically, you can generate the test case group first and then edit the information.\n"
+ },
+ {
+   "Question": "How do we improve the invalid output?",
+   "Response": "Expected output is generated from output tree and stored as tree (similar to the input and context tree)."
+ },
+ {
+   "Question": "I understand that, but can you provide a little bit more explanation?",
+   "Response": "The output tree can be auto generated or the user can manually create the tree. User can manipulate this output tree to model the expected output.\n"
+ },
+ {
+   "Question": "How is the output tree generated?",
+   "Response": "The output tree can be auto generated."
+ },
+ {
+   "Question": "Can I do that manually?",
+   "Response": "Yes, you can.\n"
+ },
+ {
+   "Question": "How to export the output? Can I download the report instead of going back and forth?",
+   "Response": "Currently we do not have this functionality. We are developing a report to export all test cases along with the input, expected output and application output."
+ },
+ {
+   "Question": "I think you guy should really develop such function.",
+   "Response": "Thank you this sugguest!\n"
+ },
+ {
+   "Question": "How is each output stored? Are there options for us to select?",
+   "Response": "Expected output is generated from output tree and stored as tree (similar to the input and context tree)."
+ },
+ {
+   "Question": "How is the output generated?",
+   "Response": "The output tree can be auto generated or the user can manually create the tree.\n"
+ },
+ {
+   "Question": "What format is the application stored as?",
+   "Response": "What do you mean by format?"
+ },
+ {
+   "Question": "Like, is it string, integer, or what?",
+   "Response": "Application output is stored in the form of String. This output is generated by the application.\n"
+ },
+ {
+   "Question": "What type of version is the output?",
+   "Response": "Could you please explain what do you mean by version?"
+ },
+ {
+   "Question": "Yes, it is like what does it stored as?",
+   "Response": "Expected output is generated from output tree and stored as tree (similar to the input and context tree).\n"
+ },
+ {
+   "Question": "What are the maximum child nodes for the parents nodes (child nodes for Invalid; child nodes for Valid)?",
+   "Response": "Do you mean number of nodes?"
+ },
+ {
+   "Question": "Like can I have more than 10?",
+   "Response": "There is no such limitationn.\n"
+ },
+ {
+   "Question": "Can I have 20 child nodes for the parents nodes?",
+   "Response": "Yes, of course."
+ },
+ {
+   "Question": "For real? Like as many as I want?",
+   "Response": "There is no nodes limitationn.\n"
+ },
+ {
+   "Question": "If I have more than 50 child nodes for the parents nodes, would that be okay?",
+   "Response": "There should be no problem."
+ },
+ {
+   "Question": "Why?",
+   "Response": "Our system doesn't have nodes limitationn.\n"
+ },
+ {
+   "Question": "What do we do next after the output stage?",
+   "Response": "Do you mean the final output?"
+ },
+ {
+   "Question": "No, I mean the test cases.",
+   "Response": "You can simply provide input for the test cases and then perform the execute test case action.\n"
+ },
+ {
+   "Question": "What if I accidentally return back to the previous stage, will output information be saved?",
+   "Response": "What do you mean by previous stage?"
+ },
+ {
+   "Question": "Like going back to the context page/input page.",
+   "Response": "Expected output is generated from the output tree once “generate test cases” action triggered. If this action is interrupted then test case generation will be terminated.\n"
+ },
+ {
+   "Question": "What will happen if the \"generate test cases\" action was triggered and I interrupted it?",
+   "Response": "During the output stage right?"
+ },
+ {
+   "Question": "Yes.",
+   "Response": "Then the test case generation will be terminated.\n"
+ },
+ {
+   "Question": "What is the difference between expected output and application output?",
+   "Response": "During which stage?"
+ },
+ {
+   "Question": "Like at the end.",
+   "Response": "Expected output is generated from the output tree. Application output is generated after the execution of test cases. Expected output tree will be used to compare actual application output to rate the quality。\n"
+ },
+ {
+   "Question": "When is application output generated?",
+   "Response": "Application output as the output for the final stage?"
+ },
+ {
+   "Question": "Correct.",
+   "Response": "Application output is generated after the execution of test cases.\n"
+ },
+ {
+   "Question": "When is the expected output generated?",
+   "Response": "Expected output as the output for the final stage?"
+ },
+ {
+   "Question": "Correct.",
+   "Response": "Expected output is generated from the output tree.\n"
+ },
+ {
+   "Question": "How is expected output tree used?",
+   "Response": "Expected output tree?"
+ },
+ {
+   "Question": "Yes.",
+   "Response": "Expected output tree will be used to compare actual application output to rate the quality.\n"
+ },
+ {
+   "Question": "What if I accidentally deleted the whole test case?",
+   "Response": "Are you looking for recovery?"
+ },
+ {
+   "Question": "Yes.",
+   "Response": "Our system doesn't provide recovery.\n"
+ },
+ {
+   "Question": "Is there any way to restore the deleted test case?",
+   "Response": "Are you looking for restoration?"
+ },
+ {
+   "Question": "Yes, I am.",
+   "Response": "Unfortunately no. If user deleted input/context test case then user will need to retrigger the generate test case action.\n"
+ },
+ {
+   "Question": "Do I need to retrigger the generate test case action if I deleted input or context test case?",
+   "Response": "For the deleted input or context test case?"
+ },
+ {
+   "Question": "Correct.",
+   "Response": "Yes, you do need to do that.\n"
+ },
+ {
+   "Question": "Where can I store the output information?",
+   "Response": "You will need to create an output tree."
+ },
+ {
+   "Question": "Then?",
+   "Response": "In the child node user can put all the possible output strings or output tree can be generated automatically based on the input and context tree.\n"
+ },
+ {
+   "Question": "Where can I find the output information?",
+   "Response": "In our system menu? Do you need navigations?"
+ },
+ {
+   "Question": "Yes please.",
+   "Response": "Go to  Login → Get Started → Test Case Group\n"
+ },
+ {
+   "Question": "Could you please provide detailed navigations to get to the output information?",
+   "Response": "In our system menu? Do you need navigations?"
+ },
+ {
+   "Question": "Yes please.",
+   "Response": "1. Click view test case action 2. Select input test case and click view test case action  to see context test case 3. Click on the “Expected Output” or “Application Output” column  to view the output respectively\n"
+ },
+ {
+   "Question": "Where can I find the deleted test case?",
+   "Response": "Deleted from the Test Case Group?"
+ },
+ {
+   "Question": "Right.",
+   "Response": "Delete action is hard delete. I.e., you cannot view the test case once deleted.\n"
+ },
+ {
+   "Question": "What type of action is for deleted test case?",
+   "Response": "Could you please clarify what do you by the type?"
+ },
+ {
+   "Question": "Like is it restorable?",
+   "Response": "No, delete action is hard delete.\n"
+ },
+ {
+   "Question": "Why is there only one file version available?",
+   "Response": "Do you mean the output file version? Or the input file version?"
+ },
+ {
+   "Question": "I mean in genneral.",
+   "Response": "Auto file versioning is not available but if you. Name the files accordingly and then user can store multiple versions of the file. Also, copy tree function is available\n"
+ },
+ {
+   "Question": "Can we have more than two parent nodes?",
+   "Response": "For output generation?"
+ },
+ {
+   "Question": "Yes, for the output tree.",
+   "Response": "No. Currently we do not have this facility.\n"
+ },
+ {
+   "Question": "Just by looking at the child nodes, it feels like the child nodes are lacking of something.",
+   "Response": "Could you explain a little bit more?"
+ },
+ {
+   "Question": "Can we have more detailed information about the child nodes?",
+   "Response": "No. Currently we do not have this facility.\n"
+ },
+ {
+   "Question": "Is there a limitation on the number of output we could have from the same dataset?",
+   "Response": "During the output stage?"
+ },
+ {
+   "Question": "Correct, with using the same input and context group.",
+   "Response": "Yes. You can generate different expected output tree for same input and context group.\n"
+ },
+ {
+   "Question": "For a given image or video, which features are considered context?",
+   "Response": "Could you provide some examples?"
+ },
+ {
+   "Question": "Many things related to the subject in your image or video can be considered as context. ",
+   "Response": "For example, the image is about a dog. The dog's posture, orientation and surounding backgroud can be regarded as context. \n"
+ },
+ {
+   "Question": "How can I customize my own context tree?",
+   "Response": "You can customize your context features by simply changing the labels of nodes, adding or deleting nodes in the context tree."
+ },
+ {
+   "Question": "Great! Do you mean each node represents a context feature?",
+   "Response": "Yep! Each node in the context tree stands for a context feature you designed. Besides, just let you know, you can enter subnodes as subfeatures as well.\n"
+ },
+ {
+   "Question": "Is there any limit to the number of nodes that I can enter?",
+   "Response": "There is no limit to the number of nodes you can create at each level. You can add nodes as needed."
+ },
+ {
+   "Question": "Here, you mean at each level. Is there an upper limit on the total levels of nodes? ",
+   "Response": "Yes, you are right! So far, our context tree only supports 3 levels. When designing the context tree, be careful to the level restriction.\n"
+ },
+ {
+   "Question": "Hi, I cannot add a child node to the 4th level of the context tree. How can I fix this?",
+   "Response": "Oh, sorry to inform you that our context tree only supports up to 3 levels of design. I am afraid you have to get rid of the 4th level or simplify your design to 3 levels. "
+ },
+ {
+   "Question": "Ok, got it! I will modify it.",
+   "Response": "You can modify it offline and then upload the modified file, or modify online in the workspace and save the updated version.\n"
+ },
+ {
+   "Question": "What’s the recommended number of input features for a context tree? Is there any limit?",
+   "Response": "There is no limit to the number of nodes and child nodes, but tree should have only three levels."
+ },
+ {
+   "Question": "Got it! Will too many nodes affect efficiency?",
+   "Response": "Great question! The greater the number of nodes, the more test cases will be generated and the longer it will take. So if possible create a tree with necessary key values.\n"
+ },
+ {
+   "Question": "How can I organize the context features? Can you provide a template?",
+   "Response": "You can organize your context features into a tree structure level by level. A parent node presents a context feature, and a child node presents a subfeature of that context feature."
+ },
+ {
+   "Question": "How many subfeatures can I add to a context feature?",
+   "Response": "There is no limit to the number of subfeatures you can add. But be careful, our context tree design only supports up to 3 levels.\n"
+ },
+ {
+   "Question": "How can I change the order between features?",
+   "Response": "Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH"
+ },
+ {
+   "Question": "I tried to rearrange the order of child nodes in my tree but failed. Can you help me figure it out?",
+   "Response": "I am sorry. Users are not allowed to do that directly. Nodes and child Nodes are sorted based on name (A-Z) after each action (add, delete and rename).\n"
+ },
+ {
+   "Question": "What actions can I do to a node in the context tree?",
+   "Response": "You can add, delete or rename a node in the context tree."
+ },
+ {
+   "Question": "How can I delete or add a node?",
+   "Response": "Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Hover mouse on the target node, and right click. You'll see the corresponding options.\n"
+ },
+ {
+   "Question": "Does the order of nodes at each level matter?",
+   "Response": "The order of nodes at each level will be automatically sorted based on name (A-Z) after each action. The order doesn't affect test cases generation."
+ },
+ {
+   "Question": "If I add more than 10 nodes at a level, would it be too much?",
+   "Response": "Actually, there is no restrictions. However, more nodes will take more time to generate test cases and modeling inputs.\n"
+ },
+ {
+   "Question": "I mistakenly deleted the context tree I just created. Is there any way to restore it?",
+   "Response": "Did you save it? You can only restore info from the saved tree."
+ },
+ {
+   "Question": "I didn't. Do I need to rebuild it from scratch?",
+   "Response": "I am sorry, the answer is YES.\n"
+ },
+ {
+   "Question": "The webpage was frozen when I was creating the context tree. If I refresh this page, will I lose my records?",
+   "Response": "Did you save it? You can only restore records from the saved tree. If you didn't, you'll lose all the info."
+ },
+ {
+   "Question": "I saved! Where can I find the saved version.",
+   "Response": "Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Select tree/file from dropdown list.\n"
+ },
+ {
+   "Question": "How can I correct the typo in my node label?",
+   "Response": "Move the mouse over the node. Right click on it and select “Rename Node” option. A popup window will open.Change name and Click rename."
+ },
+ {
+   "Question": "Oh, thanks. Clear instructions.",
+   "Response": "No problem. Just let you know, when you rename a node, the order of nodes will be automatically sorted by new name (A-Z).\n"
+ },
+ {
+   "Question": "How can I zoom in the tree I built, because all the nodes are squeezed together?",
+   "Response": "There are three ways. 1. Click near the tree Area (If tree is not manipulated). Use mouse scroll to zoom-in and zoom-out the tree."
+ },
+ {
+   "Question": "2. Click and hold to move tree around.",
+   "Response": "3. Double click near the tree to zoom-in.\n"
+ },
+ {
+   "Question": "Can I specify the file save path in advance instead of selecting it every time?",
+   "Response": "No, we don't have that option. We utilize systems file explorer. But once user opens the directory and selects a file, the same directory will open during the user session."
+ },
+ {
+   "Question": "If I switch to other app and come back, the same directory still open?",
+   "Response": "Not exactly. The same directory stays open only if you only use this app.\n"
+ },
+ {
+   "Question": "I’d like to turn a sub-feature into a higher level feature, and how can I make this modification?",
+   "Response": "Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Drag and rearrange nodes feature is available. You can modify the tree this way."
+ },
+ {
+   "Question": "Can I perform the same operation to downgrade a feature to a lower level?",
+   "Response": "Exactly. The operation is the same.\n"
+ },
+ {
+   "Question": "Can I add multiple nodes to my context tree at once?",
+   "Response": "Of course. Mouse hover on a node and right click. Choose the \"Create Child Node\" option. You can customize the nodes to be added in the popup window."
+ },
+ {
+   "Question": "Could you explain in more detail?",
+   "Response": "Sure.There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree.\n"
+ },
+ {
+   "Question": "Can I merge the nodes at level 2 and level 3 in my context tree?",
+   "Response": "Do you mean reconstruct your context tree? Of course, you can do it."
+ },
+ {
+   "Question": "How can I achieve it?",
+   "Response": "Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Drag and rearrange nodes feature is available . \n"
+ },
+ {
+   "Question": "Hi, where can I find my saved context tree file?",
+   "Response": "Select tree/file from dropdown list. Tree will be displayed."
+ },
+ {
+   "Question": "Can I continue to modify on it?",
+   "Response": "Sure. But don't forget to save your changes.\n"
+ },
+ {
+   "Question": "Can I build two separate context trees in the file? ",
+   "Response": "Could you elaborate a bit more on \"separate context trees\" you mentioned ?"
+ },
+ {
+   "Question": "What I mean is to create two separate trees with separate roots.",
+   "Response": "At this stage, our application does not support multiple context trees in a file. A file only contains a tree.\n"
+ },
+ {
+   "Question": "Can I create my context tree offline and then upload the file?",
+   "Response": "Sure. You can choose to upload files or create online."
+ },
+ {
+   "Question": "What format does the app support?",
+   "Response": "JSON. You should build your context tree as a json file.\n"
+ },
+ {
+   "Question": "Can I download the context tree I built on the app?",
+   "Response": "Yes. After you save it, we can download the corresponding json file generated by the app."
+ },
+ {
+   "Question": "Great! If I want to modify the tree, I need to upload the file again?",
+   "Response": "Yes, that's one way. Another way is to modify the json file directly.\n"
+ },
+ {
+   "Question": "What actions can I do to a tree node?",
+   "Response": "Actions, such as add, delete, rename and etc. You can find different actions in the option list. "
+ },
+ {
+   "Question": "Where can I find the option list you mentioned?",
+   "Response": "Mouse hovers on a node and right click, then the option list will appear.\n"
+ },
+ {
+   "Question": "Can I merge the child nodes of a node to another node at the same level?",
+   "Response": "Yes, you can. Just drag and rearrange the nodes in your tree."
+ },
+ {
+   "Question": "Great! What's the upper bound of the number of child nodes?",
+   "Response": "There is no limit. You can add child nodes as needed. \n"
+ },
+ {
+   "Question": "I have been waiting for the test cases to be generated for a long time. It takes like forever...",
+   "Response": "May I ask how many nodes in your context tree?"
+ },
+ {
+   "Question": "Over 100 nodes.",
+   "Response": "The more nodes, the more test cases will be generated. It will take a looooong time. So if possible delete some redundant nodes and just retain the key ones.\n"
+ },
+ {
+   "Question": "It took me a long time to generate all the test cases. Is there a problem with too many nodes in my context tree?",
+   "Response": "I think you created too many nodes in you context tree. You can delete some redundant nodes and just keep the important ones. "
+ },
+ {
+   "Question": "How can I delete a node?",
+   "Response": "Mouse hovers on a node and right click. Then you will see the delete option.\n"
+ },
+ {
+   "Question": "While building the context tree, my web page was frozen. what should I do?",
+   "Response": "Probably you could try to refresh the page and redraw your tree."
+ },
+ {
+   "Question": "You mean if I refresh I will lose what I have built so far!?",
+   "Response": "Sorry, if the network connection is lost, we will not be able to recover what you created. Try to save the file often.\n"
+ },
+ {
+   "Question": "There is little room for me to add nodes to the third level of the context tree.",
+   "Response": "Do you want to zoom in or zoom out the tree?"
+ },
+ {
+   "Question": "Yes, I would like to zoom out a bit. How can I do that?",
+   "Response": "Mouse scroll to zoom-in and zoom-out the tree, or click and hold to move tree around.\n"
+ },
+ {
+   "Question": "How many contents can I add to my context?",
+   "Response": "Do you mean how many nodes you can add to your context tree? Am I right?"
+ },
+ {
+   "Question": "Yes, that's exactly what I mean. I want to know the limit to the number of nodes I can add to the tree.",
+   "Response": "There is no limit to the number of nodes in the context tree, but you can only have one root.\n"
+ },
+ {
+   "Question": "Can I merge two context trees into a single one online?",
+   "Response": "I am afraid you can't do it online. Because in the online editing, we only allow to add one and only one root node."
+ },
+ {
+   "Question": "Is there any other way to merge two context trees? I don't want to build the merged tree from scratch.",
+   "Response": "You can merge the two tree files offline. And then upload the merged JSON file.\n"
+ },
+ {
+   "Question": "What's the maximum depth of the context tree?",
+   "Response": "The context tree should have up to 3 levels."
+ },
+ {
+   "Question": "Can we specify the weights on the edge of the tree?",
+   "Response": "Sorry, now we don't have this function.\n"
+ },
+ {
+   "Question": "Can we customize property to each node?",
+   "Response": "What do you mean by property?"
+ },
+ {
+   "Question": "I mean the node detail, such as creation time, last modification time, number of children and etc.",
+   "Response": "Sorry, now we only support adding category names to each node.\n"
+ },
+ {
+   "Question": "How many parents can each child node have?",
+   "Response": "In our application, each child node can have and only have one parent node."
+ },
+ {
+   "Question": "Got it. And how many child nodes can each node have?",
+   "Response": "There is no limit to the number of child nodes.\n"
+ },
+ {
+   "Question": "Can we have customized shape of nodes when drawing the tree?",
+   "Response": "Sorry, we don't have such function. "
+ },
+ {
+   "Question": "Maybe you should add this functionality in the futher. I think it's important for users to classify nodes in different groups.",
+   "Response": "Thanks for your suggestion. We'll think about it.\n"
+ }
+]
