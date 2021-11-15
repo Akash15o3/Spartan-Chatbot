@@ -3,19 +3,23 @@ class Chatbox {
         this.args = {
             openButton: document.querySelector('.chatbox__button'),
             chatBox: document.querySelector('.chatbox__support'),
-            sendButton: document.querySelector('.send__button')
+            sendButton: document.querySelector('.send__button'),
+//            uploadButton: document.querySelector('.image_input')
         }
 
         this.state = false;
         this.messages = [];
+//        this.image = "";
     }
 
     display() {
-        const {openButton, chatBox, sendButton} = this.args;
+        const {openButton, chatBox, sendButton, uploadButton} = this.args;
 
         openButton.addEventListener('click', () => this.toggleState(chatBox))
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox))
+
+//        uploadButton.addEventListener('change', () => this.onUploadButton(chatBox))
 
         const node = chatBox.querySelector('input');
         node.addEventListener("keyup", ({key}) => {
@@ -68,13 +72,40 @@ class Chatbox {
           });
     }
 
+    onUploadButton(chatbox) {
+    var images = [];
+    var image = document.getElementById('image_input');
+    console.log(image);
+//        const reader = new FileReader();
+//        this.image = reader.result;
+//        console.log(this.image);
+//        reader.addEventListener("load", () => {
+//        console.log("IN HERE");
+//        this.image = reader.result;
+//        console.log(this.image);
+//        document.querySelector("#display_image").style.backgroundImage = `url(${this.image})`;
+//
+//        });
+//        reader.readAsDataURL(this.files);
+//        var html = '';
+//             html += '<img src="static/images/imagebutton.png">' + "hellotherie" + '</div>'
+//
+//            const chatmessage = chatbox.querySelector('.chatbox__messages');
+//            chatmessage.innerHTML = html;
+    }
+
     updateChatText(chatbox) {
         var html = '';
         this.messages.slice().reverse().forEach(function(item, index) {
-            if (item.name === "SpartanBot")
+           if (item.name === "SpartanBot")
             {
                 html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
             }
+
+//            {
+//                html += '<img src="static/images/imagebutton.png">' + item.message + '</div>'
+//            }
+
             else
             {
                 html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
