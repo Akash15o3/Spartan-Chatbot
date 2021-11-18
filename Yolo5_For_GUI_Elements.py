@@ -50,7 +50,7 @@ def DetectYOLO(path):
     # im = Image.open('/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/Main_Page_Images/Img3.JPG')
     # plt.imshow(im)
     return Results['Class']
-    os.chdir(owd) 
+    # os.chdir(owd)
     
 # Results=DetectYOLO(path)
 # os.chdir(owd)    
