@@ -77,7 +77,31 @@ class Chatbox {
     onUploadButton(chatbox) {
     var image = document.getElementById('image').files;
     this.messages.push({name:"User" , message : URL.createObjectURL(image[0])});
-    this.updateChatText(chatbox);
+    var text1 = '';
+    text1 = "/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/static/images/"+image[0].name;
+    var textField = chatbox.querySelector('input');
+
+        fetch('http://127.0.0.1:5000/predictimage', {
+            method: 'POST',
+            body: JSON.stringify({ message: text1 }),
+            mode: 'cors',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+          })
+          .then(r => r.json())
+          .then(r => {
+            let msg2 = { name: "SpartanBot", message: r.answer };
+            this.messages.push(msg2);
+            this.updateChatText(chatbox)
+            textField.value = ''
+
+        }).catch((error) => {
+            console.error('Error:', error);
+            this.updateChatText(chatbox)
+            textField.value = ''
+          });
+//    this.updateChatText(chatbox);
     }
 
 
