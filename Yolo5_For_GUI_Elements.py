@@ -35,7 +35,7 @@ def DetectYOLO(path):
     print("here 1")
     R = subprocess.call(f"python /Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/yolov5/detect.py --weights /Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/weights/Data_Admin_With_Graph.pt --img 1024 --conf 0.2 --save-txt --save-crop --source {path}", shell= True)
     print("here 2", R)
-    Results = pd.read_csv(Results_Path+'/Img3.txt', names=["Class No", "X", "Y", "W","H"], sep=' ')
+    Results = pd.read_csv(Results_Path+'/Img4.txt', names=["Class No", "X", "Y", "W","H"], sep=' ')
     Cls=[]
     for i in range(len(Results['Class No'])):
         Cls.append(Class[Results['Class No'][i]])

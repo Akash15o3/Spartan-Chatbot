@@ -78,7 +78,7 @@ class Chatbox {
     var image = document.getElementById('image').files;
     this.messages.push({name:"User" , message : URL.createObjectURL(image[0])});
     var text1 = '';
-    text1 = "/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/static/images/"+image[0].name;
+    text1 = "/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/Main_Page_Images/"+image[0].name;
     var textField = chatbox.querySelector('input');
 
         fetch('http://127.0.0.1:5000/predictimage', {

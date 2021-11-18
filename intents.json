@@ -73,18 +73,7 @@
         "No"
       ]
     },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    },
+
     {
       "tag": "aitool/testcaserelated",
       "patterns": [
@@ -603,7 +592,6 @@
         "At this stage, our application does not support multiple context trees in a file. A file only contains a tree.",
         "Sure. You can choose to upload files or create online.",
         "JSON. You should build your context tree as a json file."
-
 
       ]
     },
