@@ -46,7 +46,15 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    return "Sorry.I do not understand. Can you please repeat your question?"
+
+
+def get_questions(msg):
+    print("in get_questions")
+    for intent in intents['intents']:
+        if msg == intent["tag"]:
+            return intent['patterns']
+    return ''
 
 
 if __name__ == "__main__":

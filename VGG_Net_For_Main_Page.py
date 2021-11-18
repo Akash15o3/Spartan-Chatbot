@@ -34,6 +34,6 @@ def Find_the_Main_Page(path):
     I=np.where(Result==max)
     Class=['Data_Administration_With_Graph', 'Test_Case_Group', 'Input_Image_Modulation', 'Main_Page', 'Contact', 'Data_Administration']
     print('You are in ' + Class[I[0][0]] + ' Tab')
-    return ('You are in ' + Class[I[0][0]] + ' Tab. ')
+    return ('Looks like you are in ' + Class[I[0][0]] + ' Tab. ')
 
 # Find_the_Main_Page(path)
