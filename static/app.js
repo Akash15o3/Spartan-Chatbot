@@ -75,15 +75,20 @@ class Chatbox {
     }
 
     onUploadButton(chatbox) {
+
+    var textField = chatbox.querySelector('input');
+    let text2 = textField.value;
+    console.log(text2);
+    this.messages.push({name:"User" , message : text2});
     var image = document.getElementById('image').files;
+    console.log("IMAGGGGG");
+    console.log(URL.createObjectURL(image[0]));
     this.messages.push({name:"User" , message : URL.createObjectURL(image[0])});
     var text1 = '';
     text1 = "/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/Main_Page_Images/"+image[0].name;
-    var textField = chatbox.querySelector('input');
-
         fetch('http://127.0.0.1:5000/predictimage', {
             method: 'POST',
-            body: JSON.stringify({ message: text1 }),
+            body: JSON.stringify({ image: text1 , message : text2 }),
             mode: 'cors',
             headers: {
               'Content-Type': 'application/json'
@@ -101,7 +106,6 @@ class Chatbox {
             this.updateChatText(chatbox)
             textField.value = ''
           });
-//    this.updateChatText(chatbox);
     }
 
 
@@ -128,11 +132,30 @@ class Chatbox {
         console.log("THIS MESSAGES");
         console.log(this.messages);
         this.messages.slice().reverse().forEach(function(item, index) {
-           if (item.name === "SpartanBot")
-            {
-                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
-//                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'"Anything else I can help you with"
-            }
+           if (item.name === "SpartanBot"){
+
+                      if(item.message.search('/Users')===0){
+                      var str = item.message;
+                      var x = '';
+                      x = str.split(".");
+                      x = x[0]+".jpeg"
+                      str = str.substring(str.indexOf(".") + 1);
+                      console.log("Item has image");
+                      console.log(item.message);
+                    html += '<div class="messages__item messages__item--visitor"> <img src="' + "static/images/2-modified.png" + '" alt=Imagee> </div>';
+                     html += '<div class="messages__item messages__item--visitor">' + str + '</div>';
+
+                 }
+                 else {
+                    html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
+                 }
+           }
+
+
+//            {
+//                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
+////                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'"Anything else I can help you with"
+//            }
 
             else
             {   if(item.message.search('blob')===0){

@@ -21,11 +21,14 @@ def predict():
 
 @app.post("/predictimage")
 def predictimage():
-    text = request.get_json().get("message")
+    text = request.get_json().get("image")
+    text2 = request.get_json().get("message")
+    print(text , text2)
     response2 = Find_the_Main_Page(text)
     response3 =''
     x = ''
     y = ''
+    z = ''
     if (response2 == 'Looks like you are in Data_Administration_With_Graph Tab. '):
         response = DetectYOLO(text)
         x = "On this tab, following are the functionalities : "
@@ -37,6 +40,7 @@ def predictimage():
         for r in response3:
             y = '\n'+ y + f"{count}. {r}" + " "
             count+=1
+        z = "/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/Main_Page_Images/Img16.jpeg"
         print(response3)
 
     elif (response2 == 'Looks like you are in Test_Case_Group Tab. '):
@@ -88,7 +92,7 @@ def predictimage():
         response = ""
 
 
-    result = response2 + x + y
+    result = z+ response2 + x + y
     message = {"answer": result}
     return jsonify(message)
 
