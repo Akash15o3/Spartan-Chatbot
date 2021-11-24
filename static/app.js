@@ -134,16 +134,18 @@ class Chatbox {
         this.messages.slice().reverse().forEach(function(item, index) {
            if (item.name === "SpartanBot"){
 
-                      if(item.message.search('/Users')===0){
+                      if(item.message.search('img')===0){
                       var str = item.message;
                       var x = '';
                       x = str.split(".");
-                      x = x[0]+".jpeg"
+                      x = "static/bounding_images/"+ x[0]+".jpeg"
                       str = str.substring(str.indexOf(".") + 1);
+                      str = str.replace('jpeg','');
                       console.log("Item has image");
-                      console.log(item.message);
-                    html += '<div class="messages__item messages__item--visitor"> <img src="' + "static/images/2-modified.png" + '" alt=Imagee> </div>';
-                     html += '<div class="messages__item messages__item--visitor">' + str + '</div>';
+                      console.log(x);
+                      html += '<div class="messages__item messages__item--visitor">' + str + '</div>';
+                     html += '<div class="messages__item messages__item--visitor"> <img src="' + x + '" alt=Imagee> </div>';
+
 
                  }
                  else {

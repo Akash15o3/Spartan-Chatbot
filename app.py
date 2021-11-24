@@ -1,8 +1,10 @@
+import os
+
 from flask import Flask, render_template, request, jsonify
 
 from chat import get_response, get_questions
 from VGG_Net_For_Main_Page import Find_the_Main_Page
-from Yolo5_For_GUI_Elements import DetectYOLO
+from Yolo5_For_GUI_Elements import DetectYOLO, DetectYOLOTestCaseGroup
 app = Flask(__name__)
 
 
@@ -30,7 +32,7 @@ def predictimage():
     y = ''
     z = ''
     if (response2 == 'Looks like you are in Data_Administration_With_Graph Tab. '):
-        response = DetectYOLO(text)
+        response = DetectYOLO(text,text2)
         x = "On this tab, following are the functionalities : "
         for r in response:
             x = x + r + " , "
@@ -40,16 +42,27 @@ def predictimage():
         for r in response3:
             y = '\n'+ y + f"{count}. {r}" + " "
             count+=1
-        z = "/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/Main_Page_Images/Img16.jpeg"
+        abc = sorted(os.listdir('/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/static/bounding_images/'))
+        print(abc)
+        z = abc[len(abc) - 1]
+        print("IMAADSd",z)
         print(response3)
 
     elif (response2 == 'Looks like you are in Test_Case_Group Tab. '):
+        response = DetectYOLOTestCaseGroup(text, text2)
+        x = "On this tab, following are the functionalities : "
+        for r in response:
+            x = x + r + " , "
         response3 = get_questions("Test_Case_Group")
         y = "You can ask me following questions. "
         count = 1
         for r in response3:
             y = '\n' + y + f"{count}. {r}" + " "
             count += 1
+        abc = sorted(os.listdir('/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/static/bounding_images/'))
+        print(abc)
+        z = abc[len(abc)-1]
+        print("img to be sent",z)
         print(response3)
 
     elif (response2 == 'Looks like you are in Input_Image_Modulation Tab. '):
