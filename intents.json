@@ -1,57 +1,153 @@
 {
   "intents": [
+
     {
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "he",
         "Hey",
-        "hiiii",
         "How are you",
         "Is anyone there?",
         "Hello",
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hey :-) Can I get your name?",
+        "Hello,can I get your name? ",
+        "Hi there, can I get your name?"
       ]
     },
     {
+      "tag": "name",
+      "patterns": [
+        "My name is Sam",
+        "Sam",
+        "I am Sam"
+
+      ],
+      "responses": [
+        "Hello Sam, thanks for visiting. How can I help you today?",
+        "Hi there Sam, what can I do for you?",
+        "Hi there Sam, how can I help?"
+      ]
+    },
+
+    {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye", "gaadbyo"],
+      "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon.",
-        "Anything else I can help you with?"
+        "Bye! Come back again soon."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful","Understand, thanks", "thnk", "thnks"],
+      "patterns": ["Thanks", "Thank you", "That's helpful","Understand, thanks"],
       "responses": ["Happy to help!", "Any time!", "My pleasure","You are welcome"]
     },
+
     {
-  "tag": "Login",
+      "tag": "getstarted/dataadminstration",
+      "patterns": [
+        "Can I upload my input classification?"
+
+      ],
+      "responses": [
+        "Yes. You can upload a JSON file."
+      ]
+    },
+    {
+      "tag": "upload failed",
+      "patterns": [
+
+        "I tried to upload csv file, but it failed.",
+        "Me treid putting csv, ti false"
+
+      ],
+      "responses": [
+        "We only accept JSON file. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+      ]
+    },
+    {
+      "tag": "getstarted/dawithgraphnodes",
+      "patterns": [
+
+        "How can I add a Node in the tree"
+
+
+      ],
+      "responses": [
+
+        "Absolutely! First move your mouse over the node, right click then select ‘create child node’ option."
+
+      ]
+    },
+    {
+      "tag": "not understand",
+      "patterns": [
+
+        "I do not understand how to do it.",
+        "I don't understand. How?",
+        "I don't know how"
+
+      ],
+      "responses": [
+
+        "I can help you with that. Can you share a screenshot of a page you are at?",
+        "I can help you. Please share a screenshot?"
+
+      ]
+    },
+    {
+      "tag": "DataAdministration With Graph",
+      "patterns": [
+
+        "Sure. I am on DataAdministration With Graph. How do I add Node in tree"
+
+      ],
+      "responses": [
+
+        "Thank you! There are two ways: First move your mouse over the node as indicated in image above, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values."
+      ]
+    },
+
+    {
+      "tag": "tree templates",
+      "patterns": [
+        "Are there any templates of tree I can use?"
+
+      ],
+      "responses": [
+        "Yes. There are. Click on Select Tree and a dropdown will appear"
+      ]
+    },
+
+    {
+      "tag": "Select Tree",
+      "patterns": [
+        "How do I Select Tree in this page?"
+
+      ],
+      "responses": [
+        "In the image above marked with black box, click on the Select Tree Button and a drop down will appear."
+      ]
+    },
+
+    {
+  "tag": "login/forgotpassword",
   "patterns": [
     "How can I reset my password? I can’t remember my password. ",
-    "I can’t login with my account and password.",
-    "Yes. Please reset my password.",
-    "change my password",
-    "chng pass"
+    "I can’t login with my account and password."
+
   ],
   "responses": [
-    "Currently we do not have this facility. Users will need to contact the admin.",
-    "Do you want to find your password?",
-    "Please contact the administrator for that.",
-    "Have you check your account and password?"
+    "Please contact the administrator for that."
+
   ]
 },
 {
-  "tag": "Contact",
+  "tag": "login/admin",
   "patterns": [
     "How can I contact the admin? Can you give me the contact information?",
     "How can I contact the admin?"
@@ -61,6 +157,86 @@
     "Please  click the ‘CONTACT’ button in the left panel"
   ]
 },
+    {
+      "tag": "Previous Information",
+      "patterns": [
+        "How can I fix the previous information when I am at the output stage?"
+
+      ],
+      "responses": [
+        "Once the “test case group” is created, users can edit input,context and output trees. Basically, you can generate the test case group first and then edit the information."
+      ]
+    },
+
+    {
+      "tag": "getstarted/testcasegroup",
+      "patterns": [
+        "Hello, I can’t find my testing cases? Can you help me? ",
+        "Do you know where I can find my input testing cases?"
+
+      ],
+      "responses": [
+        "Yes sure. you can go to Login-> Get Started -> TEST CASE GROUP, then select appropriate test case group, scroll to right till you see the action column. Hover over each action button to see the description, click ‘View Test Cases’. Then you will be redirected to input test cases. Did I solve your problem?"
+
+      ]
+    },
+
+    {
+      "tag": "can not find it",
+      "patterns": [
+        "I still can not find it "
+
+
+      ],
+      "responses": [
+        "Sure. Can you please search in the Test Case Group?"
+      ]
+    },
+
+     {
+      "tag": "Search Test Case",
+      "patterns": [
+        "Where is the Search Bar? Help me. "
+
+      ],
+      "responses": [
+        "Thank you for sharing the screenshot. In the above image, click on the black box with Search button and type your test case name. It will appear."
+      ]
+    },
+
+    {
+      "tag": "Execute test case",
+      "patterns": [
+        "How do I run the test case that I just created? "
+
+      ],
+      "responses": [
+        "Please select your test case and then click on the button Execute Test Case."
+      ]
+    },
+
+    {
+      "tag": "Multiple test cases",
+      "patterns": [
+        "Can I run multiple test cases?"
+
+      ],
+      "responses": [
+        "Yes you can."
+      ]
+    },
+
+    {
+      "tag": "Multiple Test Case Screenshot",
+      "patterns": [
+        "Here is the screenshot. How do I Execute Test Case or Cases?"
+
+      ],
+      "responses": [
+        "Thank you for sharing your screen. In above image, there is a black box which will execute all test cases that you select."
+      ]
+    },
+
     {
       "tag": "aitool/generalquestion",
       "patterns": [
@@ -78,21 +254,12 @@
         "No"
       ]
     },
-    {
-      "tag": "aitool/testcaserelated",
-      "patterns": [
-        "What is the difference between test case input modeling and input tree modeling?",
-        "wat si dffernce btn tst inpt and treee madling?"
 
-      ],
-      "responses": [
-        "In Input tree modeling we are defining the factors which need to be considered while testing a certain product.  We use this tree while defining the test case group and to generate the test cases Test Case Input modeling refers to Data/Input Data required for the test case. In this module, we are providing the user ability to add input data to the test case either manually or with the help of a web search engine"
-      ]
-    },
     {
       "tag": "aitool/testcaserelated",
       "patterns": [
         "What is test case modeling?",
+        "What is the difference between test case input modeling and input tree modeling?",
         "Can functional and performance tests both be done?",
         "Is there template available for reference?"
       ],
@@ -123,14 +290,14 @@
         "What is the impact if the test tools are used by multiple users for different apps at the same time?",
         "Do you mean only one user one application can be supported at one time?",
         "What are the maximal test cases can be executed when the app performance is tested?",
-        "Can multiple test cases be executed?",
-        "cn mlptle tst cas b exvuted",
+        "Can multiple test cases be executed then?",
         "Can user use same login with currently with multiple browser?"
       ],
       "responses": [
         "Currently the app is in the development stage. So the performance capabilities are limited and not supported.",
         "Yes. We plan to support it in later version.",
         "Current the performance testing feature is not available",
+        "No.",
         "No, one user can’t login with multiple browser."
       ]
     },
@@ -146,9 +313,10 @@
       ]
     },
     {
-      "tag": "Main_Page",
+      "tag": "dashboard/testcases",
       "patterns": [
         "How can I use the test case group function best? ",
+        "Got it. It’s the test cases organization method",
         "How can I control the test cases number of each test case branch?",
         "Can I input the limitation number?"
       ],
@@ -181,25 +349,9 @@
         "We will consider the schedule function"
       ]
     },
+
     {
-      "tag": "Data_Administration",
-      "patterns": [
-        "Can I upload my input classification?",
-        "How can I upload my input classification?",
-        "I tried to upload csv file, but it failed.",
-        "Thanks for you help. Can I upload an excel file?",
-        "Can I use input classification files as my content classification?",
-        "What type of input classification file can I upload?"
-      ],
-      "responses": [
-        "Yes. You can upload a JSON file.",
-        "Go to Login -> Get Started -> DATA ADMINISTRATION. Then select JSON file,  select file type ( Input, Context or Output), click submit.",
-        "We only accept JSON file. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit.",
-        "JSON file"
-      ]
-    },
-    {
-      "tag": "Data_Administration_With_Graph",
+      "tag": "getstarted/dataadminstationwithgraph",
       "patterns": [
         "How can I do the version control of the input and context classification input?? ",
         "What does copying tree for?",
@@ -211,30 +363,12 @@
         "Use Group Name , Version, Sub-version fields to create different groups for the same application",
         "It’s used to copy the whole content of current version for producing a new version by modification",
         "Copy tree is to copy the version.",
+        "Currently no.",
+        "No",
         "Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed."
       ]
     },
-    {
-      "tag": "getstarted/dawithgraphnodes",
-      "patterns": [
-        "Hello, how can I edit my nodes for input classification?",
-        "How many nodes can I add at most in one time?",
-        "Can I add more nodes?",
-        "I can't rename my node?",
-        "Can I change the color of node?",
-        "How many nodes can I enter for my input classification?",
-        "Yes"
 
-      ],
-      "responses": [
-        "Sure, you can edit or delete nodes.",
-        "There is a ‘create 5 Nodes’ option to add five child nodes with default names. Then you can select the node to rename with appropriate values.",
-        "Absolutely! There are two ways: First move your mouse over the node, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values.",
-        "You can Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Rename Node” option.A popup window will open.Change name and Click rename.",
-        "Sorry, we don’t have this option.",
-        "The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more number of test cases will be generated."
-      ]
-    },
     {
       "tag": "getstarted/dawithgraphchildnodes",
       "patterns": [
@@ -311,18 +445,7 @@
         "You need to go navigation: Login -> Get Started-> Data Administration with graph. Move mouse over the node.Right click on it and option to delete the node will be displayed."
       ]
     },
-     {
-      "tag": "getstarted/dawithgraphnodescreate",
-      "patterns": [
-        "I don't know how to create a child node from input classification, Could you help me?"
 
-
-      ],
-      "responses": [
-        "Absolutely. Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Create Child Node” option.A popup window will open. Add name for the node and click create."
-
-      ]
-    },
     {
       "tag": "getstarted/testcasegroup",
       "patterns": [
@@ -338,9 +461,8 @@
       ]
     },
     {
-      "tag": "Test_Case_Group",
+      "tag": "getstarted/testcasegroupoutput",
       "patterns": [
-        "How can I fix the previous information when I am at the output stage?",
         "Can I edit the input and context without generating the output tree when I reach the output stage? Like can I edit the information without saving it?",
         "Could you please provide clarification?",
         "How do we improve the invalid output?",
@@ -601,17 +723,18 @@
         "Sure. You can choose to upload files or create online.",
         "JSON. You should build your context tree as a json file."
 
+
       ]
     },
     {
-      "tag": "Input_Image_Modulation",
+      "tag": "getstarted/dawithgraphcontexttreenode4",
       "patterns": [
         "Can I download the context tree I built on the app?",
-        "If I want to modify the tree, I need to upload the file again?",
+        "Great! If I want to modify the tree, I need to upload the file again?",
         "What actions can I do to a tree node?",
-        "Where can I find the option list?",
+        "Where can I find the option list you mentioned?",
         "Can I merge the child nodes of a node to another node at the same level?",
-        "What's the upper bound of the number of child nodes?"
+        "Great! What's the upper bound of the number of child nodes?"
 
 
       ],
@@ -664,15 +787,6 @@
         "There is no limit to the number of nodes in the context tree, but you can only have one root.",
         "I am afraid you can't do it online. Because in the online editing, we only allow to add one and only one root node.",
         "You can merge the two tree files offline. And then upload the merged JSON file."
-      ]
-    },
-    {
-      "tag": "getstarted/dawithgraphcontexttreenode6",
-      "patterns": [
-        "What's the maximum depth of the context tree?"
-      ],
-      "responses": [
-        "The context tree should have up to 3 levels."
       ]
     },
     {

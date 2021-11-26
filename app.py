@@ -31,17 +31,19 @@ def predictimage():
     x = ''
     y = ''
     z = ''
+    response4 = ""
     if (response2 == 'Looks like you are in Data_Administration_With_Graph Tab. '):
         response = DetectYOLO(text,text2)
-        x = "On this tab, following are the functionalities : "
-        for r in response:
-            x = x + r + " , "
-        response3 = get_questions("Data_Administration_With_Graph")
-        y = "You can ask me following questions. "
-        count = 1
-        for r in response3:
-            y = '\n'+ y + f"{count}. {r}" + " "
-            count+=1
+        # x = "On this tab, following are the functionalities : "
+        # for r in response:
+        #     x = x + r + " , "
+        # response3 = get_questions("Data_Administration_With_Graph")
+        response4 = get_response(text2)
+        # y = "You can ask me following questions. "
+        # count = 1
+        # for r in response3:
+        #     y = '\n'+ y + f"{count}. {r}" + " "
+        #     count+=1
         abc = sorted(os.listdir('/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/static/bounding_images/'))
         print(abc)
         z = abc[len(abc) - 1]
@@ -50,15 +52,16 @@ def predictimage():
 
     elif (response2 == 'Looks like you are in Test_Case_Group Tab. '):
         response = DetectYOLOTestCaseGroup(text, text2)
-        x = "On this tab, following are the functionalities : "
-        for r in response:
-            x = x + r + " , "
-        response3 = get_questions("Test_Case_Group")
-        y = "You can ask me following questions. "
-        count = 1
-        for r in response3:
-            y = '\n' + y + f"{count}. {r}" + " "
-            count += 1
+        # x = "On this tab, following are the functionalities : "
+        # for r in response:
+        #     x = x + r + " , "
+        # response3 = get_questions("Test_Case_Group")
+        response4 = get_response(text2)
+        # y = "You can ask me following questions. "
+        # count = 1
+        # for r in response3:
+        #     y = '\n' + y + f"{count}. {r}" + " "
+        #     count += 1
         abc = sorted(os.listdir('/Users/aaggarwal/Desktop/college_project/Spartan-Chatbot/static/bounding_images/'))
         print(abc)
         z = abc[len(abc)-1]
@@ -105,7 +108,7 @@ def predictimage():
         response = ""
 
 
-    result = z+ response2 + x + y
+    result = z+ response4 + x + y
     message = {"answer": result}
     return jsonify(message)
 

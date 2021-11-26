@@ -99,10 +99,6 @@ def image_bounding_box_tcg(data, path, text):
     Y = x * data["Y"].values[idx]
     W = y * data["W"].values[idx]
     H = x * data["H"].values[idx]
-    # X = x * data["X"].values[idx]
-    # Y = y * data["Y"].values[idx]
-    # W = x * data["W"].values[idx]
-    # H = y * data["H"].values[idx]
 
     # Create a Rectangle patch
     rect = patches.Rectangle((X - W / 2, Y - H / 2), W, H, linewidth=1, edgecolor='k', facecolor='none')

@@ -1,5 +1,6 @@
 {
   "intents": [
+
     {
       "tag": "greeting",
       "patterns": [
@@ -11,12 +12,26 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hey :-) Can I get your name?",
+        "Hello,can I get your name? ",
+        "Hi there, can I get your name?"
       ]
     },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "My name is Sam",
+        "Sam",
+        "I am Sam"
+
+      ],
+      "responses": [
+        "Hello Sam, thanks for visiting. How can I help you today?",
+        "Hi there Sam, what can I do for you?",
+        "Hi there Sam, how can I help?"
+      ]
+    },
+
     {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
@@ -31,6 +46,93 @@
       "patterns": ["Thanks", "Thank you", "That's helpful","Understand, thanks"],
       "responses": ["Happy to help!", "Any time!", "My pleasure","You are welcome"]
     },
+
+    {
+      "tag": "getstarted/dataadminstration",
+      "patterns": [
+        "Can I upload my input classification?"
+
+      ],
+      "responses": [
+        "Yes. You can upload a JSON file."
+      ]
+    },
+    {
+      "tag": "getstarted/dataadminstration",
+      "patterns": [
+
+        "I tried to upload csv file, but it failed.",
+        "Me treid putting csv, ti false"
+
+      ],
+      "responses": [
+        "We only accept JSON file. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+      ]
+    },
+    {
+      "tag": "getstarted/dawithgraphnodes",
+      "patterns": [
+
+        "How can I add a Node in the tree"
+
+
+      ],
+      "responses": [
+
+        "Absolutely! First move your mouse over the node, right click then select ‘create child node’ option."
+
+      ]
+    },
+    {
+      "tag": "getstarted/dawithgraphnodes",
+      "patterns": [
+
+        "I do not understand how to do it.",
+        "I don't understand. How?"
+
+      ],
+      "responses": [
+
+        "I can help you with that. Can you share a screenshot of a page you are at?",
+        "I can help you. Please share a screenshot?"
+
+      ]
+    },
+    {
+      "tag": "getstarted/dawithgraphnodes",
+      "patterns": [
+
+        "Sure. I am on DataAdministration With Graph. How do I add Node in tree"
+
+      ],
+      "responses": [
+
+        "Thank you! There are two ways: First move your mouse over the node as indicated in image above, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values."
+      ]
+    },
+
+    {
+      "tag": "getstarted/dawithgraphnodes",
+      "patterns": [
+        "Are there any templates of tree I can use?"
+
+      ],
+      "responses": [
+        "Yes. There are. Click on Select Tree and a dropdown will appear"
+      ]
+    },
+
+    {
+      "tag": "getstarted/dawithgraphnodes",
+      "patterns": [
+        "How do I Select Tree in this page?"
+
+      ],
+      "responses": [
+        "In the image above marked with black box, click on the Select Tree Button and a drop down will appear."
+      ]
+    },
+
     {
   "tag": "login/forgotpassword",
   "patterns": [
@@ -179,25 +281,7 @@
         "We will consider the schedule function"
       ]
     },
-    {
-      "tag": "getstarted/dataadminstration",
-      "patterns": [
-        "Can I upload my input classification?",
-        "How can I upload my input classification?",
-        "I tried to upload csv file, but it failed.",
-        "Thanks for you help. Can I upload an excel file?",
-        "Can I use input classification files as my content classification?",
-        "What type of input classification file can I upload?"
-      ],
-      "responses": [
-        "Yes. You can upload a JSON file.",
-        "Go to Login -> Get Started -> DATA ADMINISTRATION. Then select JSON file,  select file type ( Input, Context or Output), click submit.",
-        "Sorry, we use JSON file to generate testing cases.",
-        "We only accept JSON file. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit.",
-        "Sure",
-        "JSON file"
-      ]
-    },
+
     {
       "tag": "getstarted/dataadminstationwithgraph",
       "patterns": [
@@ -216,28 +300,7 @@
         "Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed."
       ]
     },
-    {
-      "tag": "getstarted/dawithgraphnodes",
-      "patterns": [
-        "Hello, how can I edit my nodes for input classification?",
-        "How many nodes can I add at most in one time?",
-        "Can I add more nodes?",
-        "I can't rename my node?",
-        "Can I change the color of node?",
-        "How many nodes can I enter for my input classification?",
-        "Yes"
 
-      ],
-      "responses": [
-        "Sure, you can edit or delete nodes.",
-        "There is a ‘create 5 Nodes’ option to add five child nodes with default names. Then you can select the node to rename with appropriate values.",
-        "Absolutely! There are two ways: First move your mouse over the node, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values.",
-        "You can Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Rename Node” option.A popup window will open.Change name and Click rename.",
-        "Sorry, we don’t have this option.",
-        "Are you asking about the tree?",
-        "The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more number of test cases will be generated."
-      ]
-    },
     {
       "tag": "getstarted/dawithgraphchildnodes",
       "patterns": [
